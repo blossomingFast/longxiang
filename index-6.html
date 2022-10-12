@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="css/css.css" />
+		<link rel="stylesheet" href="css/other.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+		<link rel="icon" href="img/icon.png" sizes="32x32">
+		<style type="text/css">
+		body {
+	background-image: url(img/background.png);
+}
+        body,td,th {
+	color: #FFF;
+}
+        a:hover {
+	color: #F00;
+}
+        </style>
+<title>关卡介绍</title>
+
+
+</head>
+
+<body>
+<table width="1694" border="1" align="center">
+  <tr>
+    <th width="1684" bgcolor="#333333" scope="col">&nbsp;</th>
+  </tr>
+</table>
+
+<table width="1127" border="1" align="center">
+  <tr>
+    <th width="1117" height="150" scope="col"><img src="img/head.png" width="1121" height="150" />
+    <table width="1121" height="31" border="1">
+        <tr>
+          <th scope="col">当前日期：<!-- #BeginDate format:IS1m -->2022-10-12  22:40<!-- #EndDate --></th>
+        </tr>
+    </table>
+    </th>
+  </tr>
+  <tr>
+    <td height="37"><table width="1123" height="31" border="1">
+      <tr>
+        <th width="95" bgcolor="#333333" scope="col"><a href="index.html">首页</a></th>
+        <th width="120" bgcolor="#333333" scope="col"><a href="index-1.html">游戏简介</a></th>
+        <th width="129" bgcolor="#333333" scope="col"><a href="index-2.html">故事背景</a></th>
+        <th width="136" bgcolor="#333333" scope="col"><a href="index-3.html">剧情设定</a></th>
+        <th width="151" bgcolor="#333333" scope="col"><a href="index-4.html">场景地图</a></th>
+        <th width="134" bgcolor="#333333" scope="col"><a href="index-5.html">角色设定</a></th>
+        <th width="171" bgcolor="#333333" scope="col">注册</th>
+        <th width="124" bgcolor="#333333" scope="col"><a href="index-7.html">论坛</a></th>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<form id="register" action="main.html" method="get" name="register_form" >
+			<ul class="list">
+				<li>
+				  <h2 class="title">用户注册</h2>
+					<span class="required_notify">* 表示必须填</span>
+				</li>
+				<li>
+				  <label for="name"><span class="red">*</span>用户名：</label>
+					<input id="name" type="text" placeholder="请输入用户名" maxlength="16" required/>
+					<span class="input_hint">4-16个字符，字母/中文/数字/下划线</span>
+				</li>
+				<li>
+					<label for="email"><span class="red">*</span>常用邮箱：</label>
+					<input id="email" type="text" placeholder="请输入您的邮箱" required/>
+					<span class="input_hint">请输入常用邮箱</span>
+				</li>
+				<li>
+					<label for="password_1"><span class="red">*</span>设置密码：</label>
+					<input id="password_1" type="password" placeholder="设置密码"  maxlength="16" required/>
+					<span class="input_hint">6-20个字符，不含有空格</span>
+				</li>
+					<li>
+					<label for="password_2"><span class="red">*</span>确认密码：</label>
+					<input id="password_2" type="password" placeholder="确认密码"  maxlength="20" required/>
+					<span class="input_hint">6-20个字符，不含有空格</span></li>
+				<li>
+					<label for="message">备注：</label>
+					<input id="message" type="text" oncanplay="备注" />
+					<span class="input_hint">有什么想说的，	请在这留下备注吧</span>
+				  </li>
+				<li>
+					<button class="submit" type="submit">立即注册</button>
+				</li>
+				<li> 
+				  <input type="checkbox" name="11" id="11" />
+				  <label for="11">是否下次记住密码</label>
+				  <label for="11"></label>
+			  </li>
+			</ul>
+		</form>
+
+
+</body>
+</html>
